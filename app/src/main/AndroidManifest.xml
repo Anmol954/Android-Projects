@@ -13,22 +13,22 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".hobby"
+            android:name=".hobby_file"
             android:exported="false" />
         <activity
-            android:name=".academics"
+            android:name=".academic_file"
             android:exported="false" />
         <activity
-            android:name=".skill"
+            android:name=".skill_file"
             android:exported="false" />
         <activity
-            android:name=".project"
+            android:name=".project_file"
             android:exported="false" />
         <activity
-            android:name=".certificate"
+            android:name=".certificate_file"
             android:exported="false" />
         <activity
-            android:name=".photo_galary"
+            android:name=".photo_galary_file"
             android:exported="false" />
         <activity
             android:name=".main_menu"

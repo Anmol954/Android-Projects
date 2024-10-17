@@ -7,9 +7,6 @@ import android.widget.ImageButton
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.myapplication.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         val project = findViewById<ImageButton>(R.id.proj)
         project.setOnClickListener {
-            intent = Intent(this, project::class.java)
+            intent = Intent(this, project_file::class.java)
             startActivity(intent)
         }
 
@@ -33,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         val certificate = findViewById<ImageButton>(R.id.cert)
         certificate.setOnClickListener {
-            intent = Intent(this, certificate::class.java)
+            intent = Intent(this, certificate_file::class.java)
             startActivity(intent)
         }
 
@@ -41,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         val photo = findViewById<ImageButton>(R.id.photog)
         photo.setOnClickListener {
-            intent = Intent(this, photo_galary::class.java)
+            intent = Intent(this, photo_galary_file::class.java)
             startActivity(intent)
         }
 
@@ -49,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
         val skill = findViewById<ImageButton>(R.id.skill)
         skill.setOnClickListener {
-            intent = Intent(this, skill::class.java)
+            intent = Intent(this, skill_file::class.java)
             startActivity(intent)
         }
 
@@ -57,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
         val academic = findViewById<ImageButton>(R.id.acad)
         academic.setOnClickListener {
-            intent = Intent(this, academics::class.java)
+            intent = Intent(this, academic_file::class.java)
             startActivity(intent)
         }
 
@@ -65,7 +62,7 @@ class MainActivity : AppCompatActivity() {
 
         val hobby = findViewById<ImageButton>(R.id.hobb)
         hobby.setOnClickListener {
-            intent = Intent(this, hobby::class.java)
+            intent = Intent(this, hobby_file::class.java)
             startActivity(intent)
         }
 
@@ -87,7 +84,7 @@ class MainActivity : AppCompatActivity() {
                true
                }
            R.id.contact -> {
-               Toast.makeText(this, "+91 908460978", Toast.LENGTH_SHORT).show()
+               Toast.makeText(this, "+91 9084609780", Toast.LENGTH_SHORT).show()
                true
                }
            R.id.feedback -> {

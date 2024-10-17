@@ -9,11 +9,21 @@
     android:background="@drawable/app_background">
 
     <ImageButton
+        android:id="@+id/acad"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/acad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hobb" />
+
+    <ImageButton
         android:id="@+id/proj"
         android:layout_width="117dp"
         android:layout_height="117dp"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="52dp"
         android:background="@drawable/project"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cert" />
@@ -23,7 +33,7 @@
         android:layout_width="117dp"
         android:layout_height="117dp"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="52dp"
         android:background="@drawable/certi"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/photog" />
@@ -33,7 +43,7 @@
         android:layout_width="117dp"
         android:layout_height="117dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="192dp"
         android:background="@drawable/photogalary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -42,27 +52,17 @@
         android:id="@+id/skill"
         android:layout_width="117dp"
         android:layout_height="117dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="52dp"
         android:background="@drawable/skill"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/acad" />
 
     <ImageButton
-        android:id="@+id/acad"
-        android:layout_width="117dp"
-        android:layout_height="117dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="52dp"
-        android:background="@drawable/acad"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hobb" />
-
-    <ImageButton
         android:id="@+id/hobb"
         android:layout_width="117dp"
         android:layout_height="117dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="192dp"
         android:layout_marginEnd="52dp"
         android:background="@drawable/hobby"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,11 +72,11 @@
         android:id="@+id/menu"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="52dp"
         android:background="#F8F7F7"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

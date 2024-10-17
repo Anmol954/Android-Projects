@@ -5,16 +5,16 @@
         android:id="@+id/email"
         android:title="Email"
         android:icon="@drawable/email"
-        app:showAsAction="collapseActionView" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/contact"
         android:title="Contact"
         android:icon="@drawable/contact"
-        app:showAsAction="collapseActionView" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/feedback"
         android:title="Feedback"
         android:icon="@drawable/feedback"
-        app:showAsAction="collapseActionView" />
+        app:showAsAction="ifRoom" />
 
 </menu>
