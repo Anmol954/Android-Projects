@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".hobby"
+            android:exported="false" />
+        <activity
+            android:name=".academics"
+            android:exported="false" />
+        <activity
+            android:name=".skill"
+            android:exported="false" />
+        <activity
+            android:name=".project"
+            android:exported="false" />
+        <activity
+            android:name=".certificate"
+            android:exported="false" />
+        <activity
+            android:name=".photo_galary"
+            android:exported="false" />
+        <activity
             android:name=".main_menu"
             android:exported="false" />
         <activity
