@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/app_background">
+    android:background="@color/black">
 
     <ImageButton
         android:id="@+id/acad"
@@ -14,7 +14,7 @@
         android:layout_height="117dp"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="52dp"
-        android:background="@drawable/acad"
+        android:background="@drawable/academic_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hobb" />
 
@@ -24,7 +24,7 @@
         android:layout_height="117dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="52dp"
-        android:background="@drawable/project"
+        android:background="@drawable/certificate_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cert" />
 
@@ -34,17 +34,17 @@
         android:layout_height="117dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="52dp"
-        android:background="@drawable/certi"
+        android:background="@drawable/project_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/photog" />
 
     <ImageButton
         android:id="@+id/photog"
-        android:layout_width="117dp"
+        android:layout_width="125dp"
         android:layout_height="117dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="192dp"
-        android:background="@drawable/photogalary"
+        android:background="@drawable/galary_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,7 +54,7 @@
         android:layout_height="117dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="52dp"
-        android:background="@drawable/skill"
+        android:background="@drawable/skill_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/acad" />
 
@@ -64,7 +64,7 @@
         android:layout_height="117dp"
         android:layout_marginTop="192dp"
         android:layout_marginEnd="52dp"
-        android:background="@drawable/hobby"
+        android:background="@drawable/hobby_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,4 +79,76 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:text="Photo Galary"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photog" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="16dp"
+        android:text="Hobby"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hobb" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="12dp"
+        android:text="Projects"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cert" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="16dp"
+        android:text="Academics"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acad" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="12dp"
+        android:text="Certifications"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/proj" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="14dp"
+        android:text="Skills"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skill" />
 </androidx.constraintlayout.widget.ConstraintLayout>
